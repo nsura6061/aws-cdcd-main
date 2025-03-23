@@ -63,10 +63,14 @@ public class CourseController {
     }
 
 
-   /* @GetMapping("/welcome")
+    @GetMapping("/welcome")
     public String greetings() {
         return "Hello Techie , AWS CICD Example working fine !";
-    }*/
+    }
+    @GetMapping("/welcome1")
+    public String greetings1() {
+        return "Hello Techie 1, AWS CICD Example working fine !";
+    }
 
 
 }
